@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moves{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 3px;
+    border: none;
+    color: white;
+    font-size: 100px;
+}
+
+.box:hover{
+    border: 7px solid black;
+}
+
+.score{
+    margin-top: 30px;
+    height: 13vh;
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 4vh;
+}
+
+.sc{
+    text-align: center;
+}
+
+.play{
+    height: 20vh;
+    width: 33vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.show{
+    height: 120px;
+    width: 120px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+}
+
+
+
+#sym{
+    font-size: 40px;
+}
+
+#msg{
+    width: 30vw;
+    height: 6vh;
+    margin-bottom: 5px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+#Rock{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#Paper{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#Scissors{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.win{
+    background-color: green;
+    color: white;
+}
+
+.lose{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    margin-top: 7px;
+}
